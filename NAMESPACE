@@ -1,2 +1,6 @@
-exportPattern("^[[:alpha:]]+")
-import("stringr")
+import("stringr", "txtplot")
+importFrom("stats", "median")
+    importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+ importFrom("utils", "data")
+export('countMedian', 'plotMedianReadCounts')
+import("RUnit")

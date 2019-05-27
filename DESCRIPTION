@@ -1,12 +1,17 @@
 Package: Zwyx
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Imports: stringr, txtplot
+Title: Zwyx
+Version: 0.99.1
+Author: AJ Vaestermark, JR Walters.
+Maintainer: ake.vastermark  <ake.vastermark@gmail.com>
+Description: Zwyx package is a next generation sequencing package for sex chromosome scaffold mismatch analysis.
+License: GPL
+Imports: stringr, txtplot, RUnit
 Encoding: UTF-8
-LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+biocViews: 	Infrastructure, Software, DataRepresentation
+RoxygenNote: 6.1.1
+Depends: R (>= 3.1)

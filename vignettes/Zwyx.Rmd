@@ -1,8 +1,12 @@
 ---
-title: "Untitled"
-author: "av"
-date: "24 May 2019"
+title: "Zwyx"
+author: "AJ Vaestermark, JR Walters."
+date: "`r Sys.Date()`"
 output: html_document
+vignette: >
+    %\VignetteIndexEntry{"Zwyx"}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
@@ -41,7 +45,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #G_RESULT <- GRangesList(RESULT)
 
-load(file="G.RESULT")
+#load(file="G.RESULT")
+
+library(Zwyx)
+library(GenomicRanges)
+data(G.RESULT)
+plotMedianReadCounts(G_RESULT)
 
 ```
 
