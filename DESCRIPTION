@@ -6,7 +6,7 @@ Author: AJ Vaestermark, JR Walters.
 Maintainer: ake.vastermark  <ake.vastermark@gmail.com>
 Description: Zwyx package is a next generation sequencing package for sex chromosome scaffold mismatch analysis.
 License: GPL
-Imports: stringr, txtplot, RUnit
+Imports: stringr, txtplot, RUnit, Rsamtools, parallel, changepoint, cn.mops, doParallel, foreach, iterators
 Encoding: UTF-8
 Suggests: 
     knitr,
@@ -14,4 +14,4 @@ Suggests:
 VignetteBuilder: knitr
 biocViews: 	Infrastructure, Software, DataRepresentation
 RoxygenNote: 6.1.1
-Depends: R (>= 3.1)
+Depends: R (>= 3.3.0)

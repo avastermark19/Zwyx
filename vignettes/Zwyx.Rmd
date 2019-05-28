@@ -48,9 +48,16 @@ knitr::opts_chunk$set(echo = TRUE)
 #load(file="G.RESULT")
 
 library(Zwyx)
-library(GenomicRanges)
+library(doParallel)
+#library(GenomicRanges)
+library("foreach", "iterators", "parallel")
+library(Rsamtools)
 data(G.RESULT)
 plotMedianReadCounts(G_RESULT)
+ratiosCorrelation(G_RESULT)
+#findChimericScaffold(G_RESULT)
+
+
 
 ```
 

@@ -23,7 +23,8 @@ This function generates "median".
 This function returns median expression for selected scaffold and sample.
 }
 \examples{
-
+data(G.RESULT)
+countMedian(scaffolds='DPSCF300112', Sample=1, G_RESULT)
 }
 \references{
 The "Zwyx" package, 2018 (in press).

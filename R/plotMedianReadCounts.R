@@ -7,7 +7,8 @@
 #' @details This function returns median expression for selected scaffold and sample.
 #' @return Returns median value.
 #' @examples
-#'
+#' data(G.RESULT)
+#' countMedian(scaffolds='DPSCF300112', Sample=1, G_RESULT)
 #' @author AJ Vaestermark, JR Walters.
 #' @references The "Zwyx" package, 2018 (in press).
 
